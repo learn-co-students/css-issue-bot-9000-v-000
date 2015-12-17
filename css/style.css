@@ -1,6 +1,8 @@
 body {
   background: pink;
-  background-color: red;      
+
+color: blue; 
+     
 }
 h1 {
   color: blue;
@@ -21,6 +23,6 @@ background-color: red;
 }
 
 #tasks .completed {
-  backgound: #cccccc;
+  backgound-color: #cccccc;
   text-decoration: underline;
 }
