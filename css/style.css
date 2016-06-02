@@ -1,23 +1,42 @@
 body {
   background: pink;
+<<<<<<< HEAD
 }
 
 h1 {
   color: blue;
-  font-size: 3em; 
+  font-size: 3em;} 
+=======
+
+h1 {
+  color: blue;
+  fontsize: 3em; 
+>>>>>>> 3698b3e0076c1415ce0fb8083a0b2208073f6afc
 }
 
 h2 {
   color: green;
+<<<<<<< HEAD
   font-weight: normal;
+=======
+  font-weight: normal
+>>>>>>> 3698b3e0076c1415ce0fb8083a0b2208073f6afc
   font-style: italic;
 }
 
 .completed {
+<<<<<<< HEAD
   font-size: 12px;
 }
 
 #tasks .completed {
   background: #ccc;
+=======
+  font-family: 12px;
+}
+
+#tasks .completed 
+  backgound: #ccc;
+>>>>>>> 3698b3e0076c1415ce0fb8083a0b2208073f6afc
   text-decoration: underline;
 }
