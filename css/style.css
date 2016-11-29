@@ -1,22 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700italic,700);
+
 body {
   background: pink;
+}
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em;
 }
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal;
   font-style: italic;
 }
 
 .completed {
-  font-family: 12px;
+  font-family: 'Lora', serif;
 }
 
-#tasks .completed 
-  backgound: #ccc;
+#tasks .completed{
+  background: #ccc;
   text-decoration: underline;
 }
