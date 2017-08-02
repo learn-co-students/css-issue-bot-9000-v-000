@@ -1,22 +1,20 @@
-body {
+* {
   background: pink;
-
-h1 {
-  color: blue;
-  fontsize: 3em; 
 }
 
-h2 {
+#title {
+  color: blue;
+  font-size: 3em;
+}
+
+.diary {
   color: green;
-  font-weight: normal
+  font-weight: normal;
   font-style: italic;
 }
 
-.completed {
-  font-family: 12px;
-}
-
-#tasks .completed 
-  backgound: #ccc;
+#tasks li{
+  font-family: Arial;
+  color: #ccc;
   text-decoration: underline;
 }
