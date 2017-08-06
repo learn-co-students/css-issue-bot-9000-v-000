@@ -1,22 +1,33 @@
 body {
   background: pink;
+}
 
 h1 {
-  color: blue;
-  fontsize: 3em; 
+  color: navy;
+  font-size: 3em;
 }
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: bold;
   font-style: italic;
+  font-family: "Times New Roman";
+  font-size: 2em;
 }
 
-.completed {
-  font-family: 12px;
+p {
+  color: #778899  ;
+  font-style: normal;;
+  font-family: "Palatino Linotype";
+  font-weight: 400;
+
+
 }
 
-#tasks .completed 
-  backgound: #ccc;
-  text-decoration: underline;
+#tasks .completed {
+  color: #778899  ;
+  font-style: normal;;
+  font-family: "Palatino Linotype";
+  font-weight: 400;
 }
+=
