@@ -34,8 +34,8 @@ PLATFORMS
 
 DEPENDENCIES
   css_parser
-  nokogiri
   pry
+  nokogiri
   rspec
 
 BUNDLED WITH
