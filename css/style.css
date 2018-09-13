@@ -14,7 +14,8 @@ h2 {
 }
 
 .completed {
-  font-family: Georgia, "New Times Roman", serif;
+  font-size: 12px;
+  font-family: serif;
 }
 
 #tasks .completed {
