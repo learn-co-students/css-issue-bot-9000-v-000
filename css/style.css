@@ -1,10 +1,11 @@
+/*
 body {
   background pink;
 }
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  fontsize: 3em;
 }
 
 h2 {
@@ -19,5 +20,30 @@ h2 {
 
 #tasks .completed {
   backgound: #ccc;
+  text-decoration: underline;
+}
+*/
+
+body {
+  background: pink;
+}
+
+h1 {
+  color: blue;
+  font-size: 3em;
+}
+
+h2 {
+  color: green;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.completed {
+  font-family: "Times New Roman";
+}
+
+#tasks .completed {
+  background: #ccc;
   text-decoration: underline;
 }
