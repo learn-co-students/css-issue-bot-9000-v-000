@@ -1,23 +1,33 @@
 body {
-  background pink;
+  background-color: pink;
 }
+/* Value Error : background Parse Error pink */
+
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em;
 }
+/* h1	Property fontsize doesn't exist. The closest matching property name is font-size : 3em */
+
+
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal;
   font-style: italic;
 }
+/* h2	Value Error : font-weight Missing a semicolon before the property name font-style */
+
 
 .completed {
-  font-family: 12px;
+  font-family: serif ;
 }
+/* .completed	Value Error : font-family 12px is not a font-family value : 12px */
+
 
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc;
   text-decoration: underline;
 }
+/*  #tasks .completed	Property backgound doesn't exist. The closest matching property name is background : #ccc */
