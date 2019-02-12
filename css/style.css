@@ -1,5 +1,5 @@
 body {
-  background-color: pink;
+  background: pink;
 }
 /* Value Error : background Parse Error pink */
 
@@ -21,7 +21,7 @@ h2 {
 
 
 .completed {
-  font-family: serif ;
+  font-size: 12px;
 }
 /* .completed	Value Error : font-family 12px is not a font-family value : 12px */
 
