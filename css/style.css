@@ -15,7 +15,7 @@ h2 {
 
 .completed {
   font-size: 12px; 
-  /* I could have also given a valid font-family value instead, but that would fail the Rspec tests. */
+  /* I could have also given a valid font-family value instead, but that would have failed the Rspec tests. */
 }
 
 #tasks .completed {
